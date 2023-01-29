@@ -6,7 +6,7 @@ Essa é uma reescrita, a partir do zero, do código usado no site https://palpit
 
 A partir do código em C foram gerados diversas variações em outras linguagens de programação. Inclusive foi gerado uma versão em PHP.
 
-Parte destes códigos foram testados localmente ou usado o site https://tio.run/, onde não tinha condições de rodar no computador.  Infelizmente alguns código não tenho condições de testar mas fique livre em pegar o código e rodar.
+Parte destes códigos foram testados localmente ou usado o site https://tio.run/, onde não tinha condições de rodar no computador.  Infelizmente alguns códigos não tenho condições de testar mas fique livre em pegar o código e rodar.
 
 Os códigos gerados pelo ChatGPT foram esses.
 
