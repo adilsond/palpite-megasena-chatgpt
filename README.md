@@ -1,6 +1,6 @@
 # Palpite para Mega Sena reescrito pelo ChatGPT
 
-Essa é uma reescrita, a partir do zero, do código usado no site https://palpite-megasena.adilson.net.br. Mas, para ser mais autêntico, usei o ChatGPT par que o mesmo faça a partir de uma descrição.
+Essa é uma reescrita, a partir do zero, do código usado no site https://palpite-megasena.adilson.net.br. Mas, para ser mais autêntico, usei o ChatGPT para que o mesmo faça a partir de uma descrição.
 
 > Gere um programa em C que vai imprimir na tela "Palpite para Mega Sena".  Pule duas linhas e escreva "As dezenas sorteadas são:"  Do lado escolhe 6 números únicos de forma aleatória entre 01 e 60. Na linha seguinte escreve "As dezenas na ordem são:" Do lado pegue estes 6 números e coloque em ordem crescente.
 
@@ -12,8 +12,8 @@ Os códigos gerados pelo ChatGPT foram esses.
 
 |Código|Obs  |
 |--|--|
-| palpite-original-wiki.php | O código que se encontra em wiki.adilson.net.br |
-|palpite-original-appengine.php | O mesmo código com a adição da verificação se está em http ou https no Google App Engine|
+| palpite-original-wiki.php | O código original que se encontra em wiki.adilson.net.br |
+|palpite-original-appengine.php | O mesmo código original com a adição da verificação se está em http ou https no Google App Engine|
 |palpite.c | Código em C - Funcional |
 |palpite.sh | Código em Bash Script - Funcional. Parte do código tive que fornecer uma função de outro script para adaptar no código|
 |palpite.pas | Código em Pascal - Testado no https://tio.run|
