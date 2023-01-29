@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Palpite para Mega Sena</title>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+</style>
+<script>
+function gerarDezenas() {
+    var numeros = [];
+    var numerosordenados = [];
+    while(numeros.length < 6){
+        var numero = Math.floor(Math.random() * 60) + 1;
+        if(numeros.indexOf(numero) === -1) numeros.push(numero);
+    }
+    numerosordenados = numeros.slice().sort(function(a, b){return a-b});
+    document.getElementById("dezenasSorteadas").innerHTML = "As dezenas sorteadas são: " + numeros.join(" - ");
+    document.getElementById("dezenasOrdenadas").innerHTML = "As dezenas na ordem são: " + numerosordenados.join(" - ");
+}
+</script>
+</head>
+<body>
+<h1>Palpite para Mega Sena</h1>
+<button onclick="gerarDezenas()">Gerar Dezenas</button>
+<p id="dezenasSorteadas"></p>
+<p id="dezenasOrdenadas"></p>
+</body>
+</html>
