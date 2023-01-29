@@ -34,7 +34,7 @@ Os códigos gerados pelo ChatGPT foram esses.
 |palpite.lisp|Lisp. Falhou em algumas versõs do lisp usado no https://tio.run|
 |palpite.html| HTML e JavaScript, Única versão que roda do lado do cliente.|
 |palpite.cgi.c|Versão do código para uso do cgi-bin - Não foi testado|
-|palpite.cgi.pl|Versão do código para uso do cgi-bin em Perl - |Não foi testado|
+|palpite.cgi.pl|Versão do código para uso do cgi-bin em Perl - Não foi testado|
 |palpite.tcl|Versão do código em TCL. Testado no https://tio.run . Mas ordenou de forma errônea quando misturou números de 1 e 2 caracteres. |
 
 
